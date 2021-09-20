@@ -1,22 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Testing web3 inside brave with metamask</h1>
+        <p>Current amount of NFT available:</p>
+        <button>Click me to send 1 NFT for testing</button>
       </header>
     </div>
   );

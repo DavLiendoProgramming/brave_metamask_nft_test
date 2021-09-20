@@ -1,0 +1,22 @@
+{
+  "name": "brave_Test",
+  "version": "1.0.0",
+  "description": "Testing brave browser when using metamask and web3",
+  "main": "index.js",
+  "author": "David Liendo",
+  "license": "yes",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "hardhat": "^2.6.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@nomiclabs/hardhat-truffle5": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "ethereum-waffle": "^3.2.0",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}
