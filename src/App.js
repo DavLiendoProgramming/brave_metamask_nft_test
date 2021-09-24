@@ -1,6 +1,7 @@
 import './App.css';
 import ConnectMetamask from './components/wallets/ConnectMetamask.js';
 import { SendNFT } from './components/actions/SendNFT';
+import { GetNFTBalance } from './components/actions/GetNFTBalance';
 import { Web3ReactProvider } from '@web3-react/core';
 import Web3 from 'web3';
 
@@ -14,9 +15,10 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1> Testing web3 inside brave with metamask</h1>
-          <p>Current amount of NFT available:</p>
+          <GetNFTBalance />
           <SendNFT />
           <ConnectMetamask />
+          <p>Current amount of NFT available:</p>
         </header>
       </div>
     </Web3ReactProvider>

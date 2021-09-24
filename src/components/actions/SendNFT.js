@@ -7,7 +7,14 @@ const Contract = require('web3-eth-contract');
 
 export const SendNFT = () => {
   const onClick = async () => {
-    console.log('ypou clicked me');
+    console.log('you clicked me');
   };
-  return <button onClick={onClick}>Send NFT</button>;
+  return (
+    <button
+      className="bg-purple-700 px-2 py-1 rounded text-base font-bold"
+      onClick={onClick}
+    >
+      Send NFT
+    </button>
+  );
 };
